@@ -1,0 +1,5 @@
+*.json
+bigquery_service.json
+.DS_Store
+.venv
+venv/
