@@ -1,5 +1,7 @@
 *.json
-bigquery_service.json
+bq_service_account.json
 .DS_Store
 .venv
 venv/
+main_stage.ipynb
+.ipynb_checkpoints
