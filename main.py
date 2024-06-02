@@ -7,7 +7,7 @@ from flask import make_response
 import os
 
 
-#configuration for local debugging
+#configuration. Please insert your variables instead of os.environ['*']
 spreadsheetId = os.environ['spreadsheetId']
 range_name = os.environ['range_name']
 project_id = os.environ['project_id']
@@ -22,7 +22,7 @@ credentials = service_account.Credentials.from_service_account_file(
          "https://www.googleapis.com/auth/cloud-platform"],
  )
 ###
-### for cloud functions deployment
+### for cloud functions or cloud run deployment
 #Authentication with service account for bigquery
 # scopes=[
 #             "https://www.googleapis.com/auth/drive.readonly",
