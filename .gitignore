@@ -5,3 +5,4 @@ bq_service_account.json
 venv/
 main_stage.ipynb
 .ipynb_checkpoints
+.env

@@ -5,15 +5,16 @@ from google.oauth2 import service_account
 from google.cloud import bigquery
 
 from flask import make_response 
+import os
 import json
 import requests
 
 #configuration
-spreadsheetId = '1WZaPMgUeAgVNUKC0QNbGtZjFE8N29NajFPdhbeMDXhA'
-range_name = '2024!B2:Z1000'
-project_id = 'liliyaj-projects'
-dataset_id = 'benchmarks_integration'
-table_id = 'benchmarks_per_day'
+spreadsheetId = os.environ['spreadsheetId']
+range_name = os.environ['range_name']
+project_id = os.environ['project_id']
+dataset_id = os.environ['dataset_id']
+table_id = os.environ['table_id']
 
 ### for local debugging
 #Authentication with service account for bigquery
