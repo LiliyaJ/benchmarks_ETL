@@ -9,7 +9,7 @@ import os
 import json
 import requests
 
-#configuration
+#configuration for local debugging
 spreadsheetId = os.environ['spreadsheetId']
 range_name = os.environ['range_name']
 project_id = os.environ['project_id']
