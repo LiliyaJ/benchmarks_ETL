@@ -33,4 +33,4 @@ The consumer table includes the following columns:
 
 ## Data flow
 
-![Data flow](imgages/flow.jpg)
+![Data flow](images/flow.jpg)
