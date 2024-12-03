@@ -34,3 +34,7 @@ The consumer table includes the following columns:
 ## Data flow
 
 ![Data flow](images/flow.jpg)
+
+## Example of a visualisation
+
+![Visualisation](images/benchmarks_paid_channels.pdf)
