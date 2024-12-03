@@ -37,4 +37,4 @@ The consumer table includes the following columns:
 
 ## Example of a visualisation
 
-![Visualisation](images/benchmarks_paid_channels.pdf)
+![Visualisation](images/benchmarks_paid_channels.jpg)
